@@ -59,16 +59,39 @@ header.logo{
 
 .text-form{
     color: #fff;
-    text-align: center center;
+    
 }
 
+
 .div-general-form{
-    width: 40%;
-    margin: auto;
-    margin-top: 300px;
-    margin-right:700px;
+    overflow: hidden;
+    width: 100%;
     display: flex;
-    align-items:center;
-    justify-content: center;
-    flex-direction: column;
+    align-items: center;
+}
+
+.div-bloco{
+    width: 50%;
+    margin-top: 150px;   
+    display: flex;
+    
+}
+
+.div-input{
+
+    width: auto;
+    display: block;
+}
+
+.div-input h1{
+
+    text-transform: uppercase;
+    font-size: 30px;
+    display:flex;
+
+
+}
+
+.div-imglanche{
+    margin-left: 200px;
 }
